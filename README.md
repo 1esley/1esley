@@ -241,7 +241,7 @@ Atuação na empresa júnior LOOPIS Jr., vinculada ao IFPB — Campus Cajazeiras
 |---|---|---|
 | Português | Nativo | — |
 | Inglês | C1 — Proficiência Eficaz | EF SET 61/100 (Set. 2026) |
-| Espanhol | — | — |
+| Espanhol | B2 — Intermediário | — |
 
 ---
 
