@@ -19,7 +19,7 @@ Busco transformar problemas reais em soluções organizadas, funcionais e bem es
 
 Sou estudante de Análise e Desenvolvimento de Sistemas no IFPB — Campus Cajazeiras, com previsão de conclusão em 2028. Meu interesse principal está em desenvolvimento backend e full stack, mas também gosto de trabalhar com dados — entender o que eles dizem e como organizá-los para que façam sentido.
 
-Ao longo da graduação, venho construindo projetos acadêmicos e pessoais que envolvem desde interfaces web interativas até integração com APIs, comunicação em tempo real e manipulação de dados. Participei do processo seletivo da **LOOPIS Jr.** (empresa júnior do IFPB — Cajazeiras), onde desenvolvi uma aplicação web completa como parte da seleção. Atualmente atuo como **Consultor de Projetos** na empresa, contribuindo com o desenvolvimento backend, implementação de novas funcionalidades e correções no **Museu Virtual da ETE PMAFA**.
+Ao longo da graduação, venho construindo projetos acadêmicos e pessoais que envolvem desde interfaces web interativas até integração com APIs, comunicação em tempo real e manipulação de dados. Participei do processo seletivo da **LOOPIS Jr.** (empresa júnior do IFPB — Cajazeiras), onde desenvolvi uma aplicação web completa como parte da seleção. Atualmente atuo como **Consultor de Projetos** na empresa, contribuindo com o desenvolvimento backend, implementação de novas funcionalidades e correções.
 
 O que me motiva é resolver problemas com lógica e código: entender um requisito, pensar na estrutura, implementar a solução e melhorá-la aos poucos. Estou em busca de oportunidades de estágio ou primeiro emprego onde eu possa aplicar o que aprendi, contribuir com projetos reais e continuar evoluindo tecnicamente.
 
@@ -122,7 +122,7 @@ Aplicação de chat em tempo real desenvolvida durante o minicurso de WebSockets
 
 Participação no desenvolvimento e manutenção do site do Museu Virtual da ETE PMAFA, no contexto das atividades da **LOOPIS Jr.**
 
-**Sobre o projeto:** o Museu Virtual é um site institucional desenvolvido pela LOOPIS Jr. para a Escola Técnica Estadual Professor Moacyr de Albuquerque Ferraz Araújo. O projeto envolve preservação de memória e conteúdo institucional em formato digital.
+**Sobre o projeto:** o Museu Virtual é um site institucional desenvolvido pela LOOPIS Jr. para a Escola Técnica Estadual Professora Maria Amélia de Freitas Araújo. O projeto envolve preservação de memória e conteúdo institucional em formato digital.
 
 **Minha atuação:**
 - Desenvolvimento backend
