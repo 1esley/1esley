@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Wesley de Oliveira Fernandes — Desenvolvedor Backend, Full Stack e Análise de Dados. Estudante de ADS no IFPB." />
+  <meta name="author" content="Wesley de Oliveira Fernandes" />
+  <meta property="og:title" content="Wesley Fernandes — Desenvolvedor" />
+  <meta property="og:description" content="Portfólio profissional — Backend, Full Stack e Análise de Dados" />
+  <meta property="og:type" content="website" />
+  <title>Wesley Fernandes — Desenvolvedor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#hero" class="nav__logo">
+        <span class="nav__logo-bracket">&lt;</span>Wesley<span class="nav__logo-dot">.</span>dev<span class="nav__logo-bracket"> /&gt;</span>
+      </a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about" class="nav__link">Sobre</a></li>
+        <li><a href="#projects" class="nav__link">Projetos</a></li>
+        <li><a href="#skills" class="nav__link">Competências</a></li>
+        <li><a href="#experience" class="nav__link">Experiência</a></li>
+        <li><a href="#education" class="nav__link">Formação</a></li>
+        <li><a href="#contact" class="nav__link">Contato</a></li>
+      </ul>
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menu">
+        <i class="ri-menu-3-line" id="navIcon"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <p class="hero__greeting">Olá, eu sou</p>
+        <h1 class="hero__name">Wesley <span class="highlight">Fernandes</span></h1>
+        <p class="hero__title">Desenvolvedor em formação</p>
+        <p class="hero__subtitle">Backend · Full Stack · Análise de Dados</p>
+        <p class="hero__description">
+          Estudante de ADS no IFPB — Campus Cajazeiras. Busco transformar problemas reais em soluções organizadas, funcionais e bem escritas.
+        </p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">Ver projetos</a>
+          <a href="#contact" class="btn btn--outline">Entrar em contato</a>
+        </div>
+        <div class="hero__social">
+          <a href="https://github.com/1esley" target="_blank" rel="noopener" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+          <a href="https://www.linkedin.com/in/wesley-de-oliveira-fernandes/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="ri-linkedin-box-fill"></i></a>
+          <a href="mailto:wesleyof.dev@gmail.com" aria-label="Email"><i class="ri-mail-fill"></i></a>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__code-block">
+          <div class="code__header">
+            <span class="code__dot code__dot--red"></span>
+            <span class="code__dot code__dot--yellow"></span>
+            <span class="code__dot code__dot--green"></span>
+            <span class="code__filename">wesley.ts</span>
+          </div>
+          <pre class="code__body"><code><span class="code-kw">const</span> <span class="code-var">wesley</span> = {
+  <span class="code-key">formação</span>: <span class="code-str">"ADS — IFPB Cajazeiras"</span>,
+  <span class="code-key">cargo</span>: <span class="code-str">"Consultor de Projetos"</span>,
+  <span class="code-key">empresa</span>: <span class="code-str">"LOOPIS Jr."</span>,
+  <span class="code-key">interesses</span>: [
+    <span class="code-str">"Backend"</span>,
+    <span class="code-str">"Full Stack"</span>,
+    <span class="code-str">"Análise de Dados"</span>
+  ],
+  <span class="code-key">disponível</span>: <span class="code-bool">true</span>
+};</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section__title">Sobre mim</h2>
+      <div class="about__content">
+        <div class="about__text">
+          <p>
+            Sou estudante de Análise e Desenvolvimento de Sistemas no IFPB — Campus Cajazeiras, com previsão de conclusão em 2028. Meu interesse principal está em desenvolvimento backend e full stack, mas também gosto de trabalhar com dados — entender o que eles dizem e como organizá-los para que façam sentido.
+          </p>
+          <p>
+            Ao longo da graduação, venho construindo projetos acadêmicos e pessoais que envolvem desde interfaces web interativas até integração com APIs, comunicação em tempo real e manipulação de dados. Participei do processo seletivo da <strong>LOOPIS Jr.</strong> (empresa júnior do IFPB — Cajazeiras), onde desenvolvi uma aplicação web completa como parte da seleção. Atualmente atuo como <strong>Consultor de Projetos</strong> na empresa, contribuindo com o desenvolvimento backend, implementação de novas funcionalidades e correções no <strong>Museu Virtual da ETE PMAFA</strong>.
+          </p>
+          <p>
+            O que me motiva é resolver problemas com lógica e código: entender um requisito, pensar na estrutura, implementar a solução e melhorá-la aos poucos.
+          </p>
+        </div>
+        <div class="about__info">
+          <div class="about__info-item">
+            <i class="ri-map-pin-line"></i>
+            <div>
+              <strong>Localização</strong>
+              <span>Cajazeiras — PB</span>
+            </div>
+          </div>
+          <div class="about__info-item">
+            <i class="ri-graduation-cap-line"></i>
+            <div>
+              <strong>Formação</strong>
+              <span>ADS — IFPB (2028)</span>
+            </div>
+          </div>
+          <div class="about__info-item">
+            <i class="ri-briefcase-line"></i>
+            <div>
+              <strong>Atuação</strong>
+              <span>LOOPIS Jr.</span>
+            </div>
+          </div>
+          <div class="about__info-item">
+            <i class="ri-translate-2"></i>
+            <div>
+              <strong>Inglês</strong>
+              <span>C1 — EF SET</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section--alt" id="projects">
+    <div class="container">
+      <h2 class="section__title">Projetos em destaque</h2>
+      <div class="projects__grid">
+
+        <!-- Conexão PET -->
+        <article class="project-card">
+          <div class="project-card__header">
+            <i class="ri-code-s-slash-line project-card__icon"></i>
+            <div class="project-card__links">
+              <a href="https://github.com/1esley/ConexaoPet-LSW" target="_blank" rel="noopener" aria-label="Repositório"><i class="ri-github-fill"></i></a>
+            </div>
+          </div>
+          <h3 class="project-card__title">Conexão PET</h3>
+          <p class="project-card__subtitle">Plataforma de Adoção de Animais</p>
+          <p class="project-card__description">
+            Aplicação web com CRUD completo via API REST. Cadastro com upload de imagem, filtros combinados, sistema de favoritos, fluxo de adoção com atualização de status e estatísticas em tempo real.
+          </p>
+          <div class="project-card__tags">
+            <span>JavaScript ES6+</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JSON Server</span>
+            <span>Node.js</span>
+            <span>API REST</span>
+          </div>
+          <span class="project-card__type">Projeto acadêmico · Equipe</span>
+        </article>
+
+        <!-- CineBox -->
+        <article class="project-card">
+          <div class="project-card__header">
+            <i class="ri-code-s-slash-line project-card__icon"></i>
+            <div class="project-card__links">
+              <a href="https://github.com/1esley/projetoCineBox" target="_blank" rel="noopener" aria-label="Repositório"><i class="ri-github-fill"></i></a>
+            </div>
+          </div>
+          <h3 class="project-card__title">CineBox</h3>
+          <p class="project-card__subtitle">Plataforma de Filmes</p>
+          <p class="project-card__description">
+            Aplicação web inspirada no Letterboxd. Navegação por gêneros, listagem de filmes, detalhes com sinopse, sistema de comentários e avaliações, cadastro e login com LocalStorage.
+          </p>
+          <div class="project-card__tags">
+            <span>JavaScript</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>LocalStorage</span>
+          </div>
+          <span class="project-card__type">Projeto acadêmico · Equipe</span>
+        </article>
+
+        <!-- VitalCorp -->
+        <article class="project-card">
+          <div class="project-card__header">
+            <i class="ri-code-s-slash-line project-card__icon"></i>
+            <div class="project-card__links">
+              <a href="https://github.com/1esley/ps-loopis" target="_blank" rel="noopener" aria-label="Repositório"><i class="ri-github-fill"></i></a>
+            </div>
+          </div>
+          <h3 class="project-card__title">VitalCorp</h3>
+          <p class="project-card__subtitle">Plataforma de Bem-Estar Corporativo</p>
+          <p class="project-card__description">
+            Projeto individual do processo seletivo da LOOPIS Jr. Check-in emocional anônimo para colaboradores, dashboard de indicadores, landing page institucional e design responsivo.
+          </p>
+          <div class="project-card__tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Remixicon</span>
+          </div>
+          <span class="project-card__type">Processo seletivo · Individual</span>
+        </article>
+
+        <!-- WebSocket -->
+        <article class="project-card">
+          <div class="project-card__header">
+            <i class="ri-code-s-slash-line project-card__icon"></i>
+            <div class="project-card__links">
+              <a href="https://github.com/1esley/MinicursoWebSocket" target="_blank" rel="noopener" aria-label="Repositório"><i class="ri-github-fill"></i></a>
+            </div>
+          </div>
+          <h3 class="project-card__title">Chat em Tempo Real</h3>
+          <p class="project-card__subtitle">Minicurso WebSocket — VI SertãoComp</p>
+          <p class="project-card__description">
+            Chat em tempo real com múltiplos usuários via WebSocket. Frontend em Next.js com React e TypeScript, backend em Node.js com Express e Socket.io.
+          </p>
+          <div class="project-card__tags">
+            <span>TypeScript</span>
+            <span>Next.js</span>
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Socket.io</span>
+          </div>
+          <span class="project-card__type">Evento · Minicurso</span>
+        </article>
+
+        <!-- Museu Virtual -->
+        <article class="project-card project-card--highlight">
+          <div class="project-card__header">
+            <i class="ri-building-line project-card__icon"></i>
+            <div class="project-card__links">
+              <a href="https://museu.etepmafa.com.br" target="_blank" rel="noopener" aria-label="Site"><i class="ri-external-link-line"></i></a>
+            </div>
+          </div>
+          <h3 class="project-card__title">Museu Virtual da ETE PMAFA</h3>
+          <p class="project-card__subtitle">Projeto LOOPIS Jr.</p>
+          <p class="project-card__description">
+            Site institucional para preservação de memória escolar. Atuação no desenvolvimento backend, implementação de novas funcionalidades e correção de bugs como parte da equipe da LOOPIS Jr.
+          </p>
+          <div class="project-card__tags">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>Vite</span>
+            <span>SQLite</span>
+          </div>
+          <span class="project-card__type">Profissional · LOOPIS Jr.</span>
+        </article>
+
+      </div>
+
+      <!-- Outros projetos -->
+      <h3 class="section__subtitle">Outros projetos acadêmicos</h3>
+      <div class="projects__table-wrapper">
+        <table class="projects__table">
+          <thead>
+            <tr>
+              <th>Projeto</th>
+              <th>Linguagem</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="https://github.com/1esley/EstruturaDeDados" target="_blank" rel="noopener">EstruturaDeDados</a></td>
+              <td><span class="lang-tag lang-tag--c">C</span></td>
+              <td>Matrizes, structs, ponteiros, alocação de memória, listas encadeadas, pilhas, filas e manipulação de arquivos CSV</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/1esley/projetoUnidadeII" target="_blank" rel="noopener">projetoUnidadeII</a></td>
+              <td><span class="lang-tag lang-tag--py">Python</span></td>
+              <td>Sistema de gerenciamento de salas de cinema — Algoritmos e Lógica de Programação</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/1esley/projetoUnidadeIII" target="_blank" rel="noopener">projetoUnidadeIII</a></td>
+              <td><span class="lang-tag lang-tag--py">Python</span></td>
+              <td>Evolução do projeto de cinemas com funcionalidades adicionais e envio de e-mails</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/1esley/POO_INTERFACE" target="_blank" rel="noopener">POO_INTERFACE</a></td>
+              <td><span class="lang-tag lang-tag--java">Java</span></td>
+              <td>Programação Orientada a Objetos com foco em interfaces e abstrações</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="section__title">Competências técnicas</h2>
+      <div class="skills__grid">
+
+        <div class="skill-group">
+          <h3 class="skill-group__title"><i class="ri-code-line"></i> Linguagens</h3>
+          <div class="skill-group__items">
+            <div class="skill-item"><i class="ri-javascript-fill"></i> JavaScript</div>
+            <div class="skill-item"><span class="skill-icon-text">TS</span> TypeScript</div>
+            <div class="skill-item"><i class="ri-python-fill"></i> Python</div>
+            <div class="skill-item"><i class="ri-java-fill"></i> Java</div>
+            <div class="skill-item"><span class="skill-icon-text">C</span> C</div>
+            <div class="skill-item"><span class="skill-icon-text">PHP</span> PHP</div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title"><i class="ri-layout-line"></i> Frontend</h3>
+          <div class="skill-group__items">
+            <div class="skill-item"><i class="ri-html5-fill"></i> HTML5</div>
+            <div class="skill-item"><i class="ri-css3-fill"></i> CSS3</div>
+            <div class="skill-item"><i class="ri-reactjs-line"></i> React</div>
+            <div class="skill-item"><span class="skill-icon-text">N</span> Next.js</div>
+            <div class="skill-item"><span class="skill-icon-text">V</span> Vite</div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title"><i class="ri-server-line"></i> Backend e APIs</h3>
+          <div class="skill-group__items">
+            <div class="skill-item"><i class="ri-nodejs-fill"></i> Node.js</div>
+            <div class="skill-item"><span class="skill-icon-text">Ex</span> Express</div>
+            <div class="skill-item"><span class="skill-icon-text">So</span> Socket.io</div>
+            <div class="skill-item"><span class="skill-icon-text">SB</span> Spring Boot</div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title"><i class="ri-database-2-line"></i> Bancos de dados</h3>
+          <div class="skill-group__items">
+            <div class="skill-item"><span class="skill-icon-text">SL</span> SQLite</div>
+            <div class="skill-item"><span class="skill-icon-text">PG</span> PostgreSQL</div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title"><i class="ri-tools-line"></i> Ferramentas</h3>
+          <div class="skill-group__items">
+            <div class="skill-item"><i class="ri-git-branch-line"></i> Git</div>
+            <div class="skill-item"><i class="ri-github-fill"></i> GitHub</div>
+            <div class="skill-item"><span class="skill-icon-text">VS</span> VS Code</div>
+          </div>
+        </div>
+
+        <div class="skill-group skill-group--learning">
+          <h3 class="skill-group__title"><i class="ri-book-open-line"></i> Em aprendizado</h3>
+          <div class="skill-group__items">
+            <div class="skill-item"><i class="ri-flutter-fill"></i> Flutter</div>
+            <div class="skill-item"><span class="skill-icon-text">D</span> Dart</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section section--alt" id="experience">
+    <div class="container">
+      <h2 class="section__title">Experiência</h2>
+      <div class="experience__content">
+        <div class="experience__item">
+          <div class="experience__marker"></div>
+          <div class="experience__details">
+            <div class="experience__header">
+              <div>
+                <h3 class="experience__role">Consultor de Projetos</h3>
+                <p class="experience__company">LOOPIS Jr. — Empresa Júnior do IFPB Cajazeiras</p>
+              </div>
+              <span class="experience__period">Mar. 2026 — Presente</span>
+            </div>
+            <p class="experience__description">
+              Desenvolvimento de software e colaboração em projetos da empresa júnior. Atuação no projeto do Museu Virtual da ETE PMAFA com foco em desenvolvimento backend, implementação de novas funcionalidades e correção de bugs.
+            </p>
+            <div class="experience__tags">
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>Vite</span>
+              <span>SQLite</span>
+              <span>Backend</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="container">
+      <h2 class="section__title">Formação e certificações</h2>
+      <div class="education__grid">
+
+        <div class="education__main">
+          <div class="education__degree">
+            <div class="education__degree-icon"><i class="ri-graduation-cap-fill"></i></div>
+            <div>
+              <h3>Análise e Desenvolvimento de Sistemas</h3>
+              <p>IFPB — Instituto Federal da Paraíba, Campus Cajazeiras</p>
+              <span class="education__year">Previsão de conclusão: 2028</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="education__certs">
+          <h3 class="education__certs-title">Certificações</h3>
+          <ul class="certs__list">
+            <li class="cert__item">
+              <div class="cert__info">
+                <strong>Minicurso: WebSocket — VI SertãoComp</strong>
+                <span>Even3</span>
+              </div>
+              <span class="cert__date">Mai. 2026</span>
+            </li>
+            <li class="cert__item">
+              <div class="cert__info">
+                <strong>Minicurso: Spring Boot e Spring Data JPA — VI SertãoComp</strong>
+                <span>Even3</span>
+              </div>
+              <span class="cert__date">Mai. 2026</span>
+            </li>
+            <li class="cert__item">
+              <div class="cert__info">
+                <strong>Certificado EF SET Inglês — C1 Proficiência Eficaz</strong>
+                <span>EF SET · 61/100</span>
+              </div>
+              <span class="cert__date">Set. 2026</span>
+            </li>
+            <li class="cert__item">
+              <div class="cert__info">
+                <strong>Habilidades comportamentais e técnicas</strong>
+                <span>Even3</span>
+              </div>
+              <span class="cert__date">Nov. 2024</span>
+            </li>
+            <li class="cert__item">
+              <div class="cert__info">
+                <strong>Minicurso: Introdução ao Desenvolvimento IoT</strong>
+                <span>Even3</span>
+              </div>
+              <span class="cert__date">Nov. 2024</span>
+            </li>
+            <li class="cert__item">
+              <div class="cert__info">
+                <strong>Curso Online de PHP</strong>
+                <span>Rocketseat</span>
+              </div>
+              <span class="cert__date">Out. 2024</span>
+            </li>
+            <li class="cert__item">
+              <div class="cert__info">
+                <strong>NLW Pocket: Javascript — Programação Iniciante</strong>
+                <span>Rocketseat</span>
+              </div>
+              <span class="cert__date">Set. 2024</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section--alt" id="contact">
+    <div class="container contact__inner">
+      <h2 class="section__title">Vamos conversar?</h2>
+      <p class="contact__text">
+        Estou em busca de oportunidades de estágio ou primeiro emprego em desenvolvimento de software.
+        Se você está buscando alguém com vontade de aprender, capacidade de resolver problemas e comprometimento com código de qualidade, entre em contato.
+      </p>
+      <div class="contact__links">
+        <a href="https://www.linkedin.com/in/wesley-de-oliveira-fernandes/" target="_blank" rel="noopener" class="contact__card">
+          <i class="ri-linkedin-box-fill"></i>
+          <strong>LinkedIn</strong>
+          <span>/wesley-de-oliveira-fernandes</span>
+        </a>
+        <a href="https://github.com/1esley" target="_blank" rel="noopener" class="contact__card">
+          <i class="ri-github-fill"></i>
+          <strong>GitHub</strong>
+          <span>/1esley</span>
+        </a>
+        <a href="mailto:wesleyof.dev@gmail.com" class="contact__card">
+          <i class="ri-mail-fill"></i>
+          <strong>Email</strong>
+          <span>wesleyof.dev@gmail.com</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; 2024–2026 Wesley de Oliveira Fernandes</p>
+      <p>Feito com HTML, CSS e JavaScript</p>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo">
+    <i class="ri-arrow-up-line"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
